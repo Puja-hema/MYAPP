@@ -1,0 +1,38 @@
+
+<div class="card-header text-center bg-primary text-white custom-card-header" style="margin-top: 20px; display: flex; justify-content: center; align-items: center;">
+    <h5 class="mb-0" style="height: 37px;">LOGIN</h5>
+</div>
+
+
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    
+    <div class="card shadow custom-card">
+      
+      <div class="card-body">
+         <form >
+          <div class="mb-4 text-start custom-text">
+            Please enter the case-sensitive password from your official invitation.
+          </div>
+          <div class="mb-3">
+            <div><b><label style="margin-right: 20px;" for="password" class="form-label">Password: </label></b>
+            </div>
+            
+            <input style="width: 450px;" 
+            type="password" 
+            [value]="password" 
+            (input)="onPasswordInput($event)" 
+            />
+          </div>
+          <div style="color:#1b5875 ;"  class="d-flex justify-content-end mt-3">
+            <button (click)="login()" type="submit" class="btn btn-primary">Login</button>
+          </div>
+        </form> 
+      
+      
+    </div>
+  </div>
+  </div>
+  <div style="height: 37px;" class="card-footer text-center">
+    <small>@Copyright 2015</small>
+  </div>
+  

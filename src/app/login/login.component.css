@@ -1,0 +1,28 @@
+
+  
+  .custom-card-header {
+    font-size: 1.5rem; /* Adjust font size of the title */
+  }
+  
+  .custom-text {
+    font-size: 0.9rem; /* Adjust informational text size */
+    color: #555; /* Optional: Change text color */
+  }
+  .vh-100 {
+    height: 45vh !important;
+}
+.card-footer
+{
+    background-color: #aaaa;
+}
+
+.logo {
+    margin-bottom: 20px; /* Space below the logo */
+  }
+  
+  .logo-img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
